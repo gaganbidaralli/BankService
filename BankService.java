@@ -30,7 +30,8 @@ public class BankService
     
     public static void main(String[] args)
     {
-        BankAccount bc=new BankAccount(5000);
+        BankAccount bc=new BankAccount(500);
         System.out.println(bc.getBalance());
     }
+
 }
